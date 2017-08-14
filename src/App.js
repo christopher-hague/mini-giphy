@@ -45,7 +45,6 @@ class App extends Component {
     if(!this.state.gifs.data) {
       return null
     } else {
-      console.log("App state: ", this.state)
       return (
         <div className="ui grid container">
           <SearchBar onChange={(searchTerm) => fetchGifs(searchTerm)} />

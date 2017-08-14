@@ -15,7 +15,6 @@ class SearchBar extends React.Component {
   }
 
   render() {
-    console.log("SearchBar state: ", this.state)
     return (
       <div className="sixteen wide column">
         <div className="ui segment secondary">
