@@ -21,7 +21,7 @@ class SearchBar extends React.Component {
           <div className="ui huge fluid input">
             <input
               type="text"
-              placeholder="Search for all the gifs..."
+              placeholder="Search all the GIFs..."
               value={this.state.searchTerm}
               onChange={(ev) => this.handleSearchBarChange(ev.target.value)}
             />

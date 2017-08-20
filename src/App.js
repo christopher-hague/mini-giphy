@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import GiphyList from './components/GiphyList'
 import SearchBar from './components/SearchBar'
@@ -32,11 +31,6 @@ class App extends Component {
         })
       }
     })
-  }
-
-  handleSearchBarChange(searchTerm) {
-    this.setState({ searchTerm })
-    this.videoSearch(searchTerm)
   }
 
   render() {
